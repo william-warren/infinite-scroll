@@ -13,7 +13,8 @@ The general flow of the page will go like this:
 - Some event causes the page to request more content. First this will
   be a click event from a button. We will replace this button with an
   `IntersectionObserver`.
-- `fetch` to `api/students` with the appropriate `offset` value. The
+- If we haven't already seen all available content, `fetch` to
+  `api/students` with the appropriate `offset` value. The
   `offset` is a way to communicate to the backend how items we've seen
   so far. That way it can keep giving us new content rather than repeating.
 - The server will respond with an object shaped like
