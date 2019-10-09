@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  width: 80vw;
+  margin: auto;
+}
+
+.students {
+  list-style: none;
+}
+
+.students > * {
+  text-align: center;
+  height: 20vh;
+  font-size: 3em;
+}
