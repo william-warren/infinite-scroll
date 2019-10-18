@@ -13,6 +13,10 @@
     <h1>Base Camp Coding Academy Students</h1>
     <ul class="students">
     </ul>
-    <div id="infinite-scroll-trigger"></div>
+    <div id="infinite-scroll-trigger">
+        <button class="scroll-trigger">
+            Give me STUFF
+        </button>
+    </div>
 </body>
 </html>

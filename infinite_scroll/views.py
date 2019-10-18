@@ -2,7 +2,7 @@ from django.views.generic import TemplateView
 from django.http import JsonResponse
 from time import sleep
 
-home = TemplateView.as_view(template_name="home.html")
+home = TemplateView.as_view(template_name="home.dhtml")
 
 STUDENT_NAMES = [
     "Devin Booker",
